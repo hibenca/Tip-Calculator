@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Tip Calculator</title>
 </head>
 
 <body>
     <h1>Tip Calculator</h1>
     <h3>
-        <label>Bill amount:
-            <input type="number" name="billAmount" id="billAmount">
+        <label>How much was your bill?
+            <input type="number" name="billAmount" id="billAmount" placeholder="Bill Amount">
         </label>
         <label>Number of people:
             <select type="number" name="people" id="people">
@@ -24,14 +25,20 @@
                 <option>8</option>
             </select>
         </label>
+        <button onclick="calculator()">Submit</button>
     </h3>
+
     <p>
         <label>Cheapskate tip:
             <output id="results1"></output>
         </label>
+    </p>
+    <p>
         <label>Honest tip:
             <output id="results2"></output>
         </label>
+    </p>
+    <p>
         <label>Post-pandemic tip:
             <output id="results3"></output>
         </label>
@@ -39,7 +46,7 @@
 
 
 
-    <button onclick="calculator()">Submit</button>
+
 
     <script src="app.js"></script>
 </body>
