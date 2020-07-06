@@ -1,7 +1,39 @@
 body {
-
+    font-family: Roboto;
     background: #8E0E00;
     background: -webkit-linear-gradient(to left, #8E0E00, #1F1C18);
     background: linear-gradient(to left, #8E0E00, #1F1C18);
     text-align: center;
+}
+
+#container {
+    background: #f7f7f7;
+    height: 300px;
+    max-width: 500px;
+    margin: 50px auto;
+    border-radius: 15px;
+}
+
+button {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background: #AD133A;
+
+}
+
+button:hover {
+    background: #4c2827;
+    border-bottom-color: #111;
+}
+
+h1 {
+    color: white;
+    background: orange;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
