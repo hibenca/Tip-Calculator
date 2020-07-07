@@ -33,7 +33,11 @@ button:hover {
 
 h1 {
     color: white;
-    background: orange;
+    background: blue;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+}
+
+p {
+    font-weight: bold;
 }
